@@ -1,0 +1,24 @@
+.navLinkStyle {
+  color: rgba(238, 111, 8, 0.74);
+  font-size: 20px;
+  display: block;
+  padding: 20px 0;
+
+  text-decoration: none;
+}
+
+.activeStyle {
+  color: rgb(255, 94, 0);
+}
+
+.activeStyle::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: relative;
+  left: 0;
+  bottom: -5px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 2px;
+}
